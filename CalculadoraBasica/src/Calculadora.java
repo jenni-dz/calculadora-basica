@@ -12,6 +12,7 @@ public class Calculadora {
 
         System.out.println("Informe o segundo número: ");
         double num2 = scanner.nextDouble();
+        scanner.close();
 
         double resultado;
         
