@@ -37,7 +37,6 @@ public class Calculadora {
                 System.out.println("Operação inválida!");
                 return;
         }
-
-    }
-  
+    System.out.printf("Resultado da operação de %.2f %c %.2f é igual a %.2f", num1, operacao, num2, resultado);    
+    }  
 }
